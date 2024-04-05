@@ -1,19 +1,24 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, Times, serif;
     background-color: #f0f0f0;
-    margin: 0;
+    margin: 0; 
     padding: 0;
+}
+h1 {
+    text-align: center;
 }
 
 header {
-    background-color: #333;
+    background-color: #664c4c;
     color: #fff;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
+    display: flex;
+    text-align: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -46,22 +51,71 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 10px; 
+    border-style: solid;
+    border-width: thick;
+    border-radius: 15px;
 }
 
-footer a{
+.pdf {
+    color: #0c0b06;
+}
+
+.linkedIn {
+    content: url(img/linkedin.png);
+    height: 3em;
+    background: space;
+}
+
+.linkedIn {
+    content: url(img/linkedin.png);
+    height: 3em;
+}
+
+.instagram {
+    content: url(img/instagram.png);
+    height: 3em;
+}
+
+.facebook {
+    content: url(img/facebook.png);
+    height: 3em;
+}
+
+.twitter {
+    content: url(img/x.png);
+    height: 3em;
+}
+
+.youtube {
+    content: url(img/youtube.png);
+    height: 3em;
+}
+
+.github {
+    content: url(img/github.png);
+    height: 3em;
+}
+
+footer a {
+font-size: medium;
+text-align: center;
+font-weight: 100;
     color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
 }
 
 footer a:hover {
-    color: #ffc107; /* Cambia de color al pasar el ratón */
+    color: #0c0b06; /* Cambia de color al pasar el ratón */
     transform: scale(1.4); /* Efecto de escala */
 }
 
 /* Estilos para el botón */
 button {
-    background-color: #ffc107;
+    background-color: rosybrown;
     color: #333;
     padding: 10px 20px;
     border: none;
@@ -73,7 +127,7 @@ button {
 }
 
 button:hover {
-    background-color: #ffeb3b; /* Cambia de color al pasar el ratón */
+    background-color: rosybrown; /* Cambia de color al pasar el ratón */
     transform: scale(1.05); /* Efecto de escala */
 }
 
