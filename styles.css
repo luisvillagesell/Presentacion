@@ -18,6 +18,7 @@ header {
 
 nav ul {
     display: flex;
+    justify-content: space-around;
     text-align: center;
     list-style: none;
     padding: 0;
@@ -33,18 +34,68 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: none;
+    border: none;
+    outline: none;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 nav ul li a:hover {
     color: #ffc107; /* Cambia de color al pasar el ratón */
+    background-color: rosybrown;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s;
+    border-radius: 5px;
 }
+
 
 section {
     padding: 50px;
-    background-color: #fff;
+    background-color: #f4f4f4; /* Cambia el color de fondo a uno suave */
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    text-align: center; /* Centra el contenido del texto */
+  }
+
+  .acerca{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .luis {
+    
+    border-radius: 70px;
+    background-color: rosybrown;
+    color: #fff;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-size: 24px; /* Aumenta el tamaño de la fuente del título */
+    color: #333; /* Cambia el color del texto del título */
+    padding: 10px; /* Agrega espacio alrededor del título */
+    background-color: #fff; /* Color de fondo del título */
+    display: inline-block; /* Hace que el fondo se ajuste al contenido */
+  }
+
+  img {
+    width: 10rem;
+  }
 
 footer {
     background-color: #333;
